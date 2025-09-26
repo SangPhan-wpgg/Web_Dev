@@ -1,0 +1,11 @@
+<sitemesh>
+    <!-- exclude API không apply layout -->
+    <mapping path="/api*" exclude="true"/>
+
+    <!-- trang login dùng layout login -->
+
+    <!-- mặc định dùng layout web.jsp -->
+    <mapping path="/admin*" decorator="web.jsp"/>
+    <mapping path="/home.jsp*" decorator="web.jsp"/>
+    
+</sitemesh>
